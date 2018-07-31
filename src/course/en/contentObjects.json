@@ -1,0 +1,39 @@
+[
+    {
+        "_id": "co-05",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "",
+        "title": "Page",
+        "displayTitle": "Page",
+        "body": "Page content below",
+        "pageBody": "",
+        "instruction": "",
+        "_graphic": {
+            "src": "course/en/images/menu_thumb.jpg",
+            "alt": "Placeholder graphic."
+        },
+        "linkText": "View",
+        "duration": "2 mins",
+        "scrollchanger": {
+            "_isEnabled": true,
+            "_items": [
+                {
+                    "_id": "c-05",
+                    "class": "pageclass1"
+                },
+                {
+                    "_id": "c-07",
+                    "class": "pageclass2"
+                },
+                {
+                    "_id": "c-08",
+                    "class": "pageclass3"
+                }
+            ]
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	}
+]

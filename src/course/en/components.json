@@ -1,0 +1,102 @@
+[
+	{
+		"_id": "c-05",
+		"_parentId": "b-05",
+		"_type": "component",
+		"_component": "table_1",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Escandallo de venta",
+		"displayTitle": "Escandallo de venta",
+		"body": "",
+        "pratial_name":"Escandallo_de_venta_table",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+   {
+  "_id":"c-06",
+  "_parentId":"b-06",
+  "_type":"component",
+  "_component":"accordion",
+  "_classes":"",
+  "_layout":"full",
+  "title": "Accordion one",
+  "displayTitle": "",
+  "body": "",
+  "instruction": "",
+  "_shouldCollapseItems": true,
+  "_items": [
+    {
+      "title": "Por Área",
+      "body": "<table id='porarea'><tr><th>Area</th><th>Nº Ofertas</th><th>Nº Centros</th><th>Nº Ref distintas</th></tr><tr><td> Total</td><td>1.770</td><td>932</td><td>58.569</td></tr><tr><td>ALIMENTACION</td><td>627</td><td>929</td><td>19.332</td></tr><tr><td>FRESCOS</td><td>1.061</td><td>928</td><td>3.490</td></tr><tr><td>ELECTRODOMESTICOS</td><td>175</td><td>181</td><td>2.617</td></tr><tr><td>BAZAR</td><td>197</td><td>516</td><td>9.263</td></tr><tr><td>TEXTIL</td><td>62</td><td>117</td><td>23.844</td></tr></table>",
+      "_graphic": {
+        "src": "",
+        "alt": "",
+        "attribution":""
+      },
+      "_classes": ""
+    },
+    {
+      "title": "Por Negocio",
+      "body": "<table id='pornegocio'><tr><th>Negocio</th><th>Nº Ofertas</th><th>Nº Centros</th><th>Nº Ref distintas</th></tr><tr><td> Total</td><td>1.770</td><td>932</td><td>58.569</td></tr><tr><td>HIPERMERCADOS</td><td>1.298</td><td>90</td><td>56.844</td></tr><tr><td>SUPERMERCADOS</td><td>1.186</td><td>458</td><td>14.234</td></tr><tr><td>FRANQUICIA</td><td>1.158</td><td>384</td><td>15.011</td></tr></table>",
+      "_graphic": {
+        "src": "",
+        "alt": "",
+        "attribution":""
+      },
+      "_classes": ""
+    },
+    {
+      "title": "Por meses",
+      "body": "<table id='pormeses'><tr><th>MesOf</th><th>NºOfertas</th><th>NºCentros</th><th>Nº Ref distintas</th></tr><tr><td><br></td><td>1.770</td><td>932</td><td>58.569</td></tr><tr><td>Feb</td><td>158</td><td>852</td><td>7.256</td></tr><tr><td>Mar.</td><td>172</td><td>850</td><td>13.697</td></tr><tr><td>Abr.</td><td>190</td><td>858</td><td>11.225</td></tr><tr><td>May.</td><td>188</td><td>859</td><td>15.708</td></tr><tr><td>Jun.</td><td>168</td><td>862</td><td>8.801</td></tr><tr><td>Jul.</td><td>189</td><td>822</td><td>9.674</td></tr><tr><td>Ago.</td><td>161</td><td>816</td><td>11.836</td></tr><tr><td>Sep.</td><td>98</td><td>823</td><td>6.881</td></tr><tr><td>Oct.</td><td>139</td><td>823</td><td>10.079</td></tr><tr><td>Nov.</td><td>104</td><td>821</td><td>10.907</td></tr><tr><td>Dic.</td><td>114</td><td>863</td><td>12.310</td></tr><tr><td>Ene.</td><td>85</td><td>858</td><td>6.036</td></tr></table>",
+      "_graphic": {
+        "src": "",
+        "alt": "",
+        "attribution":""
+      },
+      "_classes": ""
+    },
+      {
+      "title": "Por Publicidad",
+      "body": "<table id='porpublicidad'><tr><th>Publi</th><th>Nº Ofertas</th><th>Nº Centros</th><th>Nº Ref distintas</th></tr><tr><td><br></td><td>1.770</td><td>932</td><td>58.569</td></tr><tr><td>C</td><td>1.628</td><td>911</td><td>46.155</td></tr><tr><td>D</td><td>559</td><td>918</td><td>5.395</td></tr><tr><td>F</td><td>880</td><td>921</td><td>33.357</td></tr><tr><td>P</td><td>221</td><td>907</td><td>418</td></tr></table>",
+      "_graphic": {
+        "src": "",
+        "alt": "",
+        "attribution":""
+      },
+      "_classes": ""
+    }
+  ]
+},
+    {
+		"_id": "c-07",
+		"_parentId": "b-07",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "PLANIFICACIÓN, ADECUACIÓN COMERCIAL Y CLIENTE RED",
+		"displayTitle": "PLANIFICACIÓN, ADECUACIÓN COMERCIAL Y CLIENTE RED",
+		"body": "",
+        "pratial_name":"",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+    {
+		"_id": "c-08",
+		"_parentId": "b-08",
+		"_type": "component",
+		"_component": "table_1",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Escandallo de venta",
+		"displayTitle": "Escandallo de venta",
+		"body": "",
+        "pratial_name":"Escandallo_de_venta_table",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	}
+]

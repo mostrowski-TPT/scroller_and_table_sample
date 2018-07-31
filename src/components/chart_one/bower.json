@@ -1,0 +1,15 @@
+{
+  "name": "adapt-chart_one",
+  "version": "0.0.1",
+  "framework": ">=2",
+  "description": "Please enter a description of your component here.",
+  "main": "/js/adapt-chart_one.js",
+  "authors": [
+    "Your Name <your.email@example.org>"
+  ],
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPLv3"
+}

@@ -1,0 +1,148 @@
+/* 
+Generic Styling, for Desktops/Laptops 
+*/
+.table_1-component{
+    table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Zebra striping */
+
+tr:nth-of-type(odd) {
+    background: #eee;
+}
+
+th {
+    background: @secondary-color;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+td,
+th {
+    padding: 6px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+tr:nth-of-type(2) {
+    background-color: fade(@secondary-color, 50%);
+    font-weight: 700;
+    td {
+        font-weight: 700;
+    }
+}
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+
+    /* Force table to not be like tables anymore */
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr {
+        border: 1px solid #ccc;
+    }
+
+    td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+    th {
+        display: none;
+        text-align: center;
+    }
+    td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 0;
+        white-space: nowrap;
+        font-weight: 700;
+    }
+
+    /*
+	Label the data
+	*/
+     tr:nth-of-type(2) {
+        background-color: fade(@secondary-color, 50%);
+        font-weight: 700;
+        td {
+            font-weight: 700;
+        }
+    }
+    
+    
+    
+    td:nth-of-type(1) {
+        padding-left: 0;
+        text-align: center;
+        font-weight: 700;
+    }
+    td:nth-of-type(2):before {
+        content: "TOTAL";
+        height: 100%;
+        
+        
+
+    }
+    td:nth-of-type(3):before {
+        content: "TARIFA";
+        height: 100%;
+        
+        
+    }
+    td:nth-of-type(4):before {
+        content: "OF CORPO";
+        height: 100%;
+        
+        
+    }
+    td:nth-of-type(5):before {
+        content: "% Part";
+        height: 100%;
+        
+        
+    }
+    td:nth-of-type(6):before {
+        content: "OF PROPIA";
+        height: 100%;
+        
+        
+    }
+    td:nth-of-type(7):before {
+        content: "COMPET";
+        height: 100%;
+        
+        
+    }
+}
+    
+}
