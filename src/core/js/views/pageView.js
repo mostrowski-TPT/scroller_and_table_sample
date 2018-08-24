@@ -12,9 +12,11 @@ define([
                 " " + (this.model.get('_isComplete') ? 'completed' : '');
         },
         preRender: function () {
-//plugin
+//plugin part 1 connecting my custom onscroll to THIS view scrol event, na obiekcie window wywoluje sie event dla view
+            
            $(window).scroll(this.onScroll.bind(this));
-//plugin
+            
+//plugin part 1
             this.disableAnimation = Adapt.config.has('_disableAnimation') ? Adapt.config.get('_disableAnimation') : false;
             this.$el.css('opacity', 0);
             this.listenTo(this.model, 'change:_isReady', this.isReady);
@@ -54,7 +56,7 @@ define([
                 }, this));
             }
         },
-//plugin
+//plugin part 2
         onScroll: function () {
             this.checkscrollposition();
         },
@@ -78,7 +80,7 @@ define([
                 });
             }
         },
-//plugin
+//plugin part 2
         remove: function () {
             if (this.$pageLabel) {
                 this.$pageLabel.remove();

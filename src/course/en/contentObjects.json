@@ -17,6 +17,7 @@
         "duration": "2 mins",
         "scrollchanger": {
             "_isEnabled": true,
+            "_DEV_comment": "below are itmes which trigger scroll pageview extension, insert their ids and put in classes that should be applied to changed element on scroll",
             "_items": [
                 {
                     "_id": "c-05",
